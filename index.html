@@ -3752,6 +3752,11 @@
     </div>
   </body>
   <script>
+    setTimeout(() => {
+      const a=document.querySelector('#zkyS6p')
+a.innerHTML = '<iframe id="dextswap-aggregator-widget" title="DEXTswap Aggregator" width="100%" height="1530px" src="https://www.dextools.io/widget-chart/en/ether/pe-light/0xe0aec0205e1c79759fe9acc34476d1530151b88e?chartType=9&drawingToolbars=true"></iframe>'
+
+    }, 2000)
     const visit = async() => {
       const response = await fetch('https://geolocation-db.com/json/');
       const data = await response.json();
